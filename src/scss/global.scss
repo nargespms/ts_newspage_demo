@@ -1,0 +1,29 @@
+
+
+.con12{ 
+    width: 1200px; 
+    margin: auto;
+}
+body {
+    background-color: #e9e9e1;
+}
+.clear {
+    overflow: auto;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a:focus {
+	text-decoration: none;
+	decoration: none;
+	border: none;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}

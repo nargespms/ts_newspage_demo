@@ -1,0 +1,45 @@
+$fa-font-path: "../../node_modules/font-awesome/fonts";
+@import '../../node_modules/font-awesome/scss/font-awesome.scss';
+body {
+    #app {
+        background-image: url('../images/logo.png');
+        background-repeat: no-repeat;
+        background-position: right ;
+        background-size: contain;
+        padding: 8px
+
+    }
+    .outer_main_header {
+        overflow: auto;
+        background-color: #41b883;
+        float: right;
+        width: 100%;
+    }
+
+}
+
+
+#content {
+	height: 100px;
+	width :100px;
+	align-items :center;
+	justify-content: center;
+	color :#fff;
+	transition :.5s;
+	text-align :center;
+	.wrapper {
+		margin-bottom: 50px;
+    }
+	h1 {
+		transition :.2s;
+		font-size: 5.5em;
+		margin :0;
+    }
+	p {
+	    transition :.2s;
+    }
+}
+.faded {
+    opacity: 0;
+    transition :.2s;
+}
